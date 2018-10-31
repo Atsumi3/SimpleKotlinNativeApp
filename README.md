@@ -32,7 +32,7 @@ iOSのSwiftの部分を全部Kotlinで書くこともできます
 
 ## ビルド手順
 1. kotlin/native のセットアップ
-    1. git clone -b v1.0 https://github.com/JetBrains/kotlin-native
+    1. git clone https://github.com/JetBrains/kotlin-native
     2. cd kotlin-native
     3. ./gradlew dependencies:update
     4. ./gradlew bundle (とても長い)
