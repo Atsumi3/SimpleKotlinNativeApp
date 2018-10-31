@@ -60,7 +60,12 @@ iOSのSwiftの部分を全部Kotlinで書くこともできます
     3. [Configure] -> [Plugins] ->  [Install JetBrains plugin]
     4. Kotlinを検索 インストール
 
-4. よしなに
+4. プロジェクトのルートに local.properties を追加 (Androidのため)
+```local.properties
+sdk.dir=path/to/android/sdk
+```
+
+5. ビルド出来ると思います
 
 ## 参考
 - [Kotlin/Native IDE Support Preview - JetBrains KOTLIN BLOG](https://blog.jetbrains.com/kotlin/2017/11/kotlinnative-ide-support-preview/)
